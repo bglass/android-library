@@ -217,7 +217,7 @@ public class DownloadFileRemoteOperation extends RemoteOperation {
         return eTag;
     }
 
-    public String getRemoteOperationPath()
+    public String getDownloadRemotePath()
     {
         return remotePath;
     }

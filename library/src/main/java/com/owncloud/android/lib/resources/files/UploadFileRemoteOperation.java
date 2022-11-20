@@ -285,4 +285,10 @@ public class UploadFileRemoteOperation extends RemoteOperation<String> {
             }
         }
     }
+
+    public String getUploadRemotePath()
+    {
+        return remotePath;
+    }
+
 }
