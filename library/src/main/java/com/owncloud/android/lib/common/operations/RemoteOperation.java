@@ -455,6 +455,4 @@ public abstract class RemoteOperation<T> implements Runnable {
         return mClient;
     }
 
-    abstract public String getRemoteOperationPath();
-
 }
