@@ -44,7 +44,7 @@ public class RemoveFileRemoteOperation extends RemoteOperation {
     private static final int REMOVE_READ_TIMEOUT = 30000;
     private static final int REMOVE_CONNECTION_TIMEOUT = 5000;
 
-    private String mRemotePath;
+    public String mRemotePath; // BG
 
     /**
      * Constructor

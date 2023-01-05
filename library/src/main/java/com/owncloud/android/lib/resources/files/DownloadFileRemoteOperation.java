@@ -63,7 +63,7 @@ public class DownloadFileRemoteOperation extends RemoteOperation {
     private String eTag = "";
     private GetMethod getMethod;
 
-    private String remotePath;
+    public String remotePath;   // BG
     private String temporalFolderPath;
 
     /**

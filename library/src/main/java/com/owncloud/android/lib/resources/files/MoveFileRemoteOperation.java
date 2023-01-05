@@ -55,8 +55,8 @@ public class MoveFileRemoteOperation extends RemoteOperation {
     private static final int MOVE_READ_TIMEOUT = 600000;
     private static final int MOVE_CONNECTION_TIMEOUT = 5000;
 
-    private String mSrcRemotePath;
-    private String mTargetRemotePath;
+    public String mSrcRemotePath;  // BG
+    public String mTargetRemotePath;  // BG
 
     private boolean mOverwrite;
 

@@ -62,7 +62,7 @@ public class UploadFileRemoteOperation extends RemoteOperation<String> {
     protected static final String OC_X_OC_CTIME_HEADER = "X-OC-Ctime";
 
     protected String localPath;
-    protected String remotePath;
+    public String remotePath; // BG
     protected String mimeType;
     /**
      * Must be in seconds, according to UNIX time

@@ -50,7 +50,7 @@ public class CreateFolderRemoteOperation extends RemoteOperation {
 
 
     private boolean createFullPath;
-    private String remotePath;
+    public String remotePath;   // BG
     private String token;
 
     /**

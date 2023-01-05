@@ -48,10 +48,10 @@ public class RenameFileRemoteOperation extends RemoteOperation {
     private static final int RENAME_READ_TIMEOUT = 600000;
     private static final int RENAME_CONNECTION_TIMEOUT = 5000;
 
-    private String mOldName;
-    private String mOldRemotePath;
-    private String mNewName;
-    private String mNewRemotePath;
+    public String mOldName; // BG
+    public String mOldRemotePath; // BG
+    public String mNewName; // BG
+    public String mNewRemotePath; // BG
 
 
     /**
